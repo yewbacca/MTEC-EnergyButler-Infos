@@ -13,4 +13,7 @@ Limitierung 5 A bei 3,59 V.
 Limitierung auf 2,5 A ist etwas unklar. Entweder bei 3,6 V oder nach einiger Zeit oder sowas.
 Wie beim Entladen gelten diese Spannungen nur bei den jeweiligen Ladeströmen. Wenn die Batterie rumsteht oder entladen wird, fallen die Spannungen wieder.
 
+Wenn die Maximale Zellspannung im Ruhezustand wieder langsam absinkt, setzt bei Erreichung von 3,35V max. Zellspannung eine "Erhaltungsladung" ein.
+Die Erhaltungsladung zieht die Max. Zellspannung wieder auf 3,61V und den SOC wieder auf 100,00% hoch, dann wiedeholt sich der Zyklus.
+
 Auffallend sind die relativ großen Abstände zwischen minimaler und maximaler Zellspannung bei Entlade- und Ladeschluss. Aber das ist physikalisch verständlich, weil es natürlich immer eine Zelle geben muss, die als erstes voll oder leer ist. Die anderen hängen dann noch hinterher.
